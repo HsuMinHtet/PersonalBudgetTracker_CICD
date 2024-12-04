@@ -17,7 +17,6 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
     private Double amount;
-    @CreationTimestamp
     private LocalDate transactionDate;
     private String description;
     @Enumerated(EnumType.STRING)

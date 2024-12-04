@@ -14,7 +14,6 @@ public record TransactionRequestDTO(
          @NotNull(message = "Transaction Amount is required")
          Double amount,
 
-         @CreatedDate
          LocalDate transactionDate,
 
          String description,
